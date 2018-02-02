@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="iie.dcs.test.ShareContactActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分享公钥"
+            android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/contacts_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看通讯录" />
+
+        <!--<Button-->
+            <!--android:id="@+id/sign_data_btn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/appHash" />-->
+
+    <Button
+        android:id="@+id/sharewx_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/WeChat" />
+
+    <Button
+        android:id="@+id/shareqr_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/QrCode" />
+
+
+    <Button
+        android:id="@+id/get_pub_key_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Pkshare" />
+
+
+    <Button
+        android:id="@+id/sharevcf_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vcfshare" />
+
+    <TextView
+        android:id="@+id/msg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示窗格!" />
+    </LinearLayout>
+</RelativeLayout>

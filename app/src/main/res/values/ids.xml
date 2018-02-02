@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="setpss" type="id">setpss</item>
+    <item name="done" type="id">done</item>
+    <item name="add" type="id">add</item>
+    <item name="contact" type="id">contact</item>
+    <item name="name" type="id">name</item>
+    <item name="pubkey" type="id">pubkey</item>
+    <item name="addn" type="id">addn</item>
+</resources>

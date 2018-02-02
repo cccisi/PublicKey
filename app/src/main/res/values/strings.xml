@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">公钥通讯录</string>
+    <string name="WeChat">微信文字分享</string>
+    <string name="QrCode">微信二维码分享</string>
+    <string name="Pkshare">公钥文件分享</string>
+    <string name="appHash">安全核心验证</string>
+    <string name="vcfshare">VCF文件分享</string>
+</resources>
